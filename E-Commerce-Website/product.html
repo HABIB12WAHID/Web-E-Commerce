@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce project for making Habib Wahid express" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Ecommerce Website</title>
+</head>
+<body>
+    <!-- navbar start here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                    <img class="profile-icon" src="./images/HM.jpeg" alt="profile icon">
+                </a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="register.html" class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Logout</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <ul class="nav-lower">
+            <li class="nav-list">
+                <a href="index.html" class="nav-brand nav-link">Habib Wahid Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="card.html" class="nav-brand nav-link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart 2 products - $124.40
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar end here -->
+
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product-details-left flex-center">
+                    <img src="./images/mac m1.m2.jpeg" alt="">
+                </div>
+                <div class="product-details-right">
+                    <h3 class="product-name">Apple Mac M1</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product-description">
+                            <strong>Describstion:</strong>
+                            The M1 chip brings up to 16GB of superfast unified memory. This single pool of high‑bandwidth, low‑latency memory allows apps to share data between the CPU, GPU, and Neural Engine efficiently — so everything you do is fast and fluid.
+                        </p>
+                        <h4 class="product-category">Category: Laptop</h4>
+                        <h4 class="product-price">Price: $225.99</h4>
+                        <p class="product-rating"> Rating: 4.8/5</p>
+                        <button class="btn product-button">Add To cart</button>
+                        <button class="btn product-button"><a href="index.html" class="back-shop">Back To Shopping</a></button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- main part start -->
+
+    <!-- main part end -->
+    <!-- footer start here -->
+    <footer>
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to news latter:</label>
+            <input 
+            type="emil"
+            class="footer-input"  
+            id="subscribe"
+            name="subscribe" 
+            placeholder="Enter your email....">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+             <p>Copyright &copy; 2023 Habib Wahid Express. All rights reserved by Habib Wahid.</p>
+        </div>
+    </footer>
+
+    <!-- footer end here -->
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
